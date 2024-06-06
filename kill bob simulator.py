@@ -42,11 +42,10 @@ while bob_health > 0:
                 print(f'you used {player_attack_names[player_attack-1]}')
                 input(f'bob took {player_attacks[player_attack_names[player_attack-1]] - bob_defense} damage, {bob_health} reamining\n')
                 current_paction = 'none'
+            elif player_attack > 0 and player_attack < 6:
+                input(f'not enough points dingus\n')
             else:
-                if player_attack > 0 and player_attack < 6:
-                    input(f'not enough points dingus\n')
-                else:
-                    input(f'try again bub\n')
+                input(f'try again bub\n')
     if current_paction == 'action':
         while current_paction == 'action':
             player_action = int(input('Which action(number)?\nACTION\t\tEFFECT\ndefend\t\tgain 3 defense\ncharge\t\tgain 5 points\n'))
