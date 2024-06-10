@@ -148,3 +148,4 @@ while True:
             break
         else: #player is stupid
             input(f'0 or 1 buddy, not this {player_replay} nonsense\n')
+            #adding this comment because i forgot to write "and went nuts with the comments in the commit"
