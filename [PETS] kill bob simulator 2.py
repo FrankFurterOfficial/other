@@ -36,6 +36,8 @@ while True:
     current_paction = 'whaat'
 
     while bob_health > 0 and player_health > 0: #loop that contains the entire game, ends once either player or bob health is below 1
+        if r.randint(1,10):
+            break
         current_paction = input('action?\nattack, action, check\n') #prompt player to choose their action
         player_defense = 0 #reset player defense at the end of bobs turn
         if current_paction == 'attack': #player chooses attack/types 1

@@ -1,8 +1,9 @@
 import tkinter as tk
-label = tk.Label(None, text='cool eagle', font=('Arial', '45'),fg='red')
-label.pack()
+
 root = tk.Tk()
-image = tk.PhotoImage(file="cool eagle.png")
+label = tk.Label(None, text='Close this window to play', font=('Arial', '45'),fg='black')
+label.pack()
+image = tk.PhotoImage(file="image.png")
 label = tk.Label(image=image)
 label.pack()
 root.mainloop()

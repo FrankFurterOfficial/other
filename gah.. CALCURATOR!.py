@@ -80,7 +80,7 @@ import random as r
 #     print('erm try again buddy')
 
 # #------------------------------------------------------------
-# #does whatever it wants
+#does whatever it wants
 # f = r.randint(1,5)
 # g = r.randint(a-r.randint(0,50),a+r.randint(0,50))
 # h = r.randint(b-r.randint(0,50),b+r.randint(0,50))
